@@ -22,9 +22,31 @@
     margin: 0;
   }
 
+  @media (max-width: 912px) {
+    .skill-card {
+      width: 30%;
+      padding: 25px;
+    }
+
+    .skill-card img {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 820px) {
+    .skill-card {
+      width: 30%;
+      padding: 25px;
+    }
+
+    .skill-card img {
+      width: 50%;
+    }
+  }
+
   @media (max-width: 768px) {
     .skill-card {
-      width: 50%;
+      width: 40%;
       padding: 10px;
     }
 
@@ -32,3 +54,5 @@
       width: 30%;
     }
   }
+
+  
