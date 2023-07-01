@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.about {
+    padding-left: 14.96rem;
+    padding-top: 6.25rem;
+  }
+  
+  .about h1 {
+    font-size: 3rem;
+    width: 22.3125rem;
+    height: 3.75rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding-bottom: 1rem;
+  }
+
+  .about span{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #F45801;
+    padding-bottom: 1rem;
+  }
+
+  .about p {
+    width: 75%;
+    font-size: 16px;
+    color: #A3A3A3;
+  }
+
+  @media (max-width: 912px) {
+    .about {
+      padding-left: 9.5rem;
+      padding-top: 5rem;
+    }
+    
+    .about p {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .about {
+      padding-left: 1.5rem;
+      padding-top: 3rem;
+    }
+    
+    .about p {
+      font-size: 14px;
+    }
+  }
