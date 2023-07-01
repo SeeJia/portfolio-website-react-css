@@ -6,6 +6,7 @@
   padding-left: 100px;
   padding-right: 100px;
   background-color: #1E1E1E;
+  color: #F45801;
 }
 
 .navbar-brand h1 {
@@ -13,7 +14,7 @@
 }
 
 .menu-button {
-  display: none; /* 默认隐藏菜单按钮 */
+  display: none;
   background: none;
   border: none;
   cursor: pointer;
@@ -29,6 +30,8 @@
 
 .menu li {
   margin-right: 10px;
+  padding-left: 1.5rem;
+  
 }
 
 .menu li a{

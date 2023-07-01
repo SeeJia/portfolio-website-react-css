@@ -17,7 +17,11 @@ export const Navbar = () => {
         <h1>My Portfolio</h1>
       </div>
       <button className="menu-button" onClick={toggleMenu}>
-        Menu
+      {isMenuOpen 
+        ? <RiCloseLine color='#fff' size={27}  />
+        : <RiMenu3Line color='#fff' size={27}  />
+      }
+
       </button>
       <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
         <li><Link to="/">Home</Link></li>
